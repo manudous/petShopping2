@@ -1,10 +1,8 @@
-import { petsEntityApi } from './kitties.api-model';
-import { mockKitties } from './kitties.api-mocks';
+import { petsEntityApi } from '../../../common/model';
+import { mockKitties } from '../../../common/mock/petShopping.mock';
 
 let kittiesList = [...mockKitties];
 
 export const getKittiesList = async (): Promise<petsEntityApi[]> => {
   return kittiesList;
 };
-
-
