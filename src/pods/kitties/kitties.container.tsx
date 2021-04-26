@@ -5,7 +5,7 @@ import { KittiesList } from './kitties.hook';
 
 export const KittiesContainer: React.FC = () => {
   const {
-    handleKittiesList,
+                                handleKittiesList,
     kittiesLisCollection,
     setKittiesListCollection,
   } = KittiesList();

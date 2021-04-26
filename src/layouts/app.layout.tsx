@@ -75,7 +75,7 @@ export const AppLayout: React.FunctionComponent = (props) => {
           <main>{children}</main>
         </TabPanel>
         <TabPanel value={value} index={1}>
-          Puppies
+          <main>{children}</main>
         </TabPanel>
       </div>
     </>

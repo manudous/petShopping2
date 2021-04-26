@@ -1,4 +1,4 @@
-import * as apiModel from '../../common/model/petShopping.model';
+import * as apiModel from 'common/model/petShopping.model';
 import * as viewModel from './kitties.vm';
 
 export const mapKittiesListFromApiToVm = (

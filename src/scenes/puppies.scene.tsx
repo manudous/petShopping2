@@ -1,11 +1,9 @@
 import * as React from 'react';
 import { AppLayout, CenteredLayout } from 'layouts';
-import { KittiesContainer } from 'pods/kitties/kitties.container';
+import { PuppiesContainer } from 'pods/puppies/puppies.container';
 
-export const KittiesScene = () => (
+export const PuppiesScene = () => (
   <CenteredLayout>
-    <AppLayout>
-      <KittiesContainer />
-    </AppLayout>
+    <PuppiesContainer />
   </CenteredLayout>
 );

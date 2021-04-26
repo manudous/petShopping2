@@ -4,8 +4,6 @@ import { KittiesContainer } from 'pods/kitties/kitties.container';
 
 export const KittiesScene = () => (
   <CenteredLayout>
-    <AppLayout>
-      <KittiesContainer />
-    </AppLayout>
+    <KittiesContainer />
   </CenteredLayout>
 );

@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { petsEntityVm } from './kitties.vm';
-import * as classes from './kitties.styles';
+import * as classes from 'common/styles/petShopping.styles';
 
 interface Props {
   kittiesListCollection: petsEntityVm[];
