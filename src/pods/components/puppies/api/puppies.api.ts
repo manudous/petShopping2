@@ -1,5 +1,5 @@
-import { petsEntityApi } from '../../../common/model';
-import { mockPuppies } from '../../../common/mock/petShopping.mock';
+import { petsEntityApi } from '../../../../common/model';
+import { mockPuppies } from '../../../../common/mock/petShopping.mock';
 
 let puppiesList = [...mockPuppies];
 
